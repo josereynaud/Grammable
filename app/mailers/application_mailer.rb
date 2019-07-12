@@ -1,5 +1,5 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "no-reply@flixterapp.com"
+  default from: "no-reply@grammableapp.com"
   layout "mailer"
 
   def forgot_password

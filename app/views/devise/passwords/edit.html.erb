@@ -1,5 +1,6 @@
 <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 card form">
   <h2>Change your password</h2>
+  <br />
   <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
     <%= f.error_notification %>
     <%= f.input :reset_password_token, as: :hidden %>
@@ -13,9 +14,11 @@
                 input_html: { autocomplete: "new-password" } %>
       <%= f.input :password_confirmation, label: "Confirm your new password", required: true %>
     </div>
+    <br />
     <div class="form-actions">
       <%= f.button :submit, "Change my password", class: 'my-btn' %>
     </div>
   <% end %>
+  <br />
   <%= render "devise/shared/links" %>
 </div>
