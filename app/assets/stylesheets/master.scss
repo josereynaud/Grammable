@@ -84,10 +84,14 @@ input {
 }
 
 .gram-actions a {
+    background-color: #125688;
     font-weight: bold;
+    width: 100%;
+    border: none;
     font-size: 16px;
-    margin-right: 20px;
-    margin-left: auto;
+    color: white;
+    margin: 10px;
+    padding: 10px;
 }
 
 .comments {
