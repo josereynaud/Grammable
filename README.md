@@ -1,24 +1,20 @@
-# README
+# Grammable
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An Instagram clone built with test driven development in mind that features user documents, image uploading and user authentication
 
-Things you may want to cover:
+## [Try it yourself!](https://grammable-jose-reynaud.herokuapp.com/)
 
-* Ruby version
+![grammable_splash](https://user-images.githubusercontent.com/49926440/62587172-9bc8b680-b88e-11e9-92ab-e407bf6832b0.png)
 
-* System dependencies
+## Built With
 
-* Configuration
+* [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) - Docker Container
+* [Ruby on Rails](https://rubyonrails.org/) - Ruby framework
+* [PostgreSQL](https://www.postgresql.org/) - SQL database
+* [Devise](https://github.com/plataformatec/devise) - Authentication platform
+* [Bootstrap](https://getbootstrap.com/) - CSS framework
+* [Factory Bots](https://github.com/thoughtbot/factory_bot_rails) - TDD Gem
 
-* Database creation
+## Authors
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+See contribution history [here](https://github.com/josereynaud/Grammable/graphs/contributors)
